@@ -1,0 +1,22 @@
+Why React is used
+open source with active community
+virtual dom helps to make web app to work more faster than vanilla js dom
+
+reusable of componenet
+<My-Layout>
+<Navbar/> // reusable component
+<main-content/> // reusable component
+<Fotter/> // reusable componenet
+</My-Layout>
+
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+to start a react project
+rm -rf node_modules && npm cache clean --force && npm install
+
+
+ReactDOM.render("what i want to render",where i want to render it);
+
+ReactDOM.render(<div><h1>a heading </h1> <p>a paragraph</p></div>,document.getElementBYId("root");
+

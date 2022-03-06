@@ -1,0 +1,192 @@
+.App {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.Header {
+  border: 2px solid #ffffff;
+  border-top: none;
+  background-color: #0079bf;
+  color: #ffffff;
+  font-family: monospace;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+.Header h1 {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+  float: left;
+}
+
+.NavBar {
+  display: inline-block;
+  list-style: none;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  float: right;
+}
+
+.NavBar li {
+  padding: 0px 5px 0px 10px;
+  display: inline;
+  cursor: pointer;
+  border-right: 2px solid black;
+}
+
+.link {
+
+  color: white;
+}
+
+.NavBar .link:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.Header::after {
+  display: block;
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+.MainContent {
+  background-color: #0079bf;
+  border: 2px solid #0079bf;
+  width: 85%;
+  margin: 20px auto;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: inset 0px 0px 0px 5px white;
+}
+
+.to-do-form {
+  background-color: white;
+  padding: 30px 0px;
+  margin: 20px auto;
+  width: 80%;
+  font-size: 20px;
+  border: 2px solid white;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: inset 0px 0px 0px 5px #0079bf;
+}
+
+.form-control {
+  margin: 10px 0;
+
+}
+
+.form-control label,
+.form-control input {
+  border: none;
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+}
+
+.form-control input {
+  border-bottom: 3px solid #ccc;
+  padding: 0.1rem 0.25rem;
+  font-size: inherit;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-bottom-color: #0079bf;
+}
+
+.to-do-form button {
+  font: inherit;
+  padding: 0.2rem 0.25rem;
+  color: white;
+  background-color: #0079bf;
+  outline: none;
+}
+
+.to-do-form button:focus,
+.to-do-form button:hover {
+  color: black;
+  background-color: #00bf10;
+  outline: none;
+  cursor: pointer;
+}
+
+.List {
+  position: relative;
+  background-color: white;
+  padding: 30px 0px;
+  margin: 20px auto;
+  width: 80%;
+  font-size: 20px;
+  border: 2px solid white;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+.List .close-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.List .close-icon:hover {
+  background-color: white;
+  color: #f84444;
+}
+
+.List .checked-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.List .checked-icon:hover {
+  background-color: white;
+  color: #0fb600;
+}
+
+.List h4.pending-item {
+  display: inline-block;
+  color: #fac400;
+  border: 1px solid #fac400;
+  padding: 2px;
+}
+
+.List h4.checked-item {
+  display: inline-block;
+  color: #46bd02;
+  border: 1px solid #46bd02;
+  padding: 2px;
+}
+
+.Footer {
+  background-color: #0079bf;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Footer h4:nth-child(3) {
+  position: relative;
+  bottom: 0;
+  padding: 5px;
+  background-color: #ffffff;
+}
