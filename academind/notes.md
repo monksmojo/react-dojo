@@ -136,4 +136,15 @@ function App() {
 ### {props.children}
 ### help us pass the whole jsx as the props
 
+### how to export and import named components
+#### to export
+```javascript
+export function FavoritesContextProvider(props) {}
+```
+#### to import we use {} [curly brackets]
+```javascript
+import {FavoritesContextProvider} from path
+```
+
+
 
