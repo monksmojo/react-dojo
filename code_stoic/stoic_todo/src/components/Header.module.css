@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    background-color: royalblue;
+    height: 50px;
+    font-size: 2em;
+    margin: 0px;
+    color: white;
+    padding: 20px;
+    font-family: sans-serif;
+}
