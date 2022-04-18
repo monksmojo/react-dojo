@@ -1,0 +1,8 @@
+### additional packages
+
+### additional packages in react
+
+"react-icons": "^4.3.1",
+"react-router-dom": "^6.3.0",
+"styled-components": "^5.3.5",
+"@splidejs/react-splide": "^0.7.5",
